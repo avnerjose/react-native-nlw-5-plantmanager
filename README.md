@@ -10,7 +10,7 @@ This code was developed during an online event called NextLevelWeek organized by
   
 ## 🎯 Features
  - Async Storage
- - Dinamic lists based on API data
+ - Dinamic lists based on FAKE API data
  - API Conection via AXIOS
  - Stack and Tab navigations
   
@@ -22,25 +22,27 @@ This code was developed during an online event called NextLevelWeek organized by
 
 ## ⚙️ Dependencies
  - [Yarn](https://yarnpkg.com/)
+ - [Expo](https://expo.io/)
+ - [JsonServer](https://github.com/typicode/json-server)
  
 ## 🚀️ Getting Started
 
-1. First, clone this repository: 
+1. Clone this repository: 
 
 ```bash
-git clone https://github.com/avnerjose/react-native-devbarber.git
+git clone https://github.com/avnerjose/react-native-nlw-5-plantmanager.git
 ```
 2. Install all dependencies
 
 ```bash
   yarn
 ```
-4. Run your mobile emulator (AndroidStudio or MacOs)
-
 3. Go to the folder you cloned the repository and install the app
 ```base
-npx react-native run-android
-or
-npx react-native run-ios
+expo start
 ```
-4. Open the app using your emulator
+4. Start the fake API service
+```bash
+json-server ./src/services server.json --host <yourIP> --port 3333 --delay 700
+```
+5. Go to the file "api.ts" and change the API address to your IP
