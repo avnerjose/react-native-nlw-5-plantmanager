@@ -1,11 +1,5 @@
-# PlantManager - ReactNative
-
-<p align="center" width="100%" >
-<img src="assets/icon.png" width="120'  /> 
-</p>
+# PlantManager - ReactNative                                                     
                                   
- 
-
 <p align="center">
 <img src="assets/plantmanager.gif" /> 
 </p>
