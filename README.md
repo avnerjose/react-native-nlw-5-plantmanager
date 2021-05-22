@@ -6,7 +6,7 @@
 This code was developed during an online event called NextLevelWeek organized by RocketSeat
 
 ## ⚡️ The Project
-  The PlatManager project was designed to make people be able to organize the plants that they take care of, being able to schedule notifications to remember them to water a certain plant. Each plant has its own informations and characteristics, you can also delete a plant from your personal list. 
+  The PlantManager project was designed to make people be able to organize the plants that they take care of, being able to schedule notifications to remember them to water a certain plant. Each plant has its own informations and characteristics, you can also delete a plant from your personal list. 
   
 ## 🎯 Features
  - Async Storage
